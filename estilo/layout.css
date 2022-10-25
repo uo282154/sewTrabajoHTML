@@ -8,21 +8,17 @@ DESCRIPCIÓN hoja de estilo del layout
 body{
     display: grid;
 
-    grid: "header1 header2"
-    "nav nav"
-    "main main"
-    "footer footer";
+    grid: "header"
+    "nav"
+    "main"
+    "footer";
     gap:0.2%;
     
     
 }
     
 header img{
-    grid-area: header1;
-}
-
-header h1{
-    grid-area: header2;
+    grid-area: header;
 }
 
 nav{
